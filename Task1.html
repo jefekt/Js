@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict';
+        
+        let a = 1, b = 1, c, d;
+        c = ++a;
+        alert(c); /* Префиксный инкремент */
+
+        d = b++;
+        alert(d); /* Постфиксный инкремент */
+
+        c = 2 + ++a;
+        alert(c); /* Префиксный инкремент увеличит а на 1 , потом идёт сложение */
+
+        d = 2 + b++;
+        alert(d); /* Постфиксный инкремент вернет b d 2, потом идёт сложение */
+
+        alert(a);
+        alert(b);
+
+
+    </script>
+
+</body>
+</html>
